@@ -1,0 +1,102 @@
+body{
+
+}
+
+@keyframes opacitytoggle {
+	0%{ opacity: 100;}
+	50% {opacity: 0;}
+	100% {opacity: 100;}
+}
+
+#ttopL{
+	width: 0;
+	height: 0;
+	border-top: 130px solid #a0acb5;
+	border-right: 130px solid transparent;
+	float: left;
+	animation: opacitytoggle 5s infinite;
+}
+
+#bigr{
+	width:0;
+	height: 0;
+	border-bottom: 400px solid red;
+	border-left: 500px solid transparent;
+	float: left;
+	margin-left: -500px;
+	animation: opacitytoggle 5s infinite;
+	}
+
+#bigb{
+	width: 200px;
+	height: 400px;
+	background: #262020;
+	float: none;
+	animation: opacitytoggle 5s infinite;
+}
+#bigs{
+	width: 300px;
+	height: 400px;
+	background: #c8beb5;
+	float: left;
+	margin-left: 70px;
+	animation: opacitytoggle 5s infinite;
+}
+
+#goldie{
+	width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 100px solid #c8a041;
+	border-bottom: 100px solid transparent;
+	float: left;
+	margin-top: 200px;
+	margin-left: -130px;
+	animation: opacitytoggle 5s infinite;
+}
+
+#silverb{
+	width: 0px;
+	height: 0px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #d4ccc0;
+	float: left;
+	margin-top: -100px;
+	animation: opacitytoggle 5s infinite;
+}
+
+#darkg{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 81px solid #6d696a;
+	margin-top: -400px;
+	margin-left: 300px;
+	float: left;
+	animation: opacitytoggle 5s infinite;
+}
+
+#silverb2{
+	width:0;
+	height: 0;
+	border-bottom: 166px solid #afb8bf;
+	border-right: 166px solid transparent;
+	float: left;
+	margin-top: -166px;
+	margin-left: 200px;
+	animation: opacitytoggle 5s infinite;
+}
+
+ #coverup {
+      width: 0;
+      height: 0;
+      border-top: 80px solid transparent;
+      border-right: 90px solid #262020;
+      border-bottom: 90px solid transparent;
+	  float: left;
+	  margin-top: -170px;
+	  margin-left: 110px;
+	  animation: opacitytoggle 5s infinite;
+    }
